@@ -1,0 +1,6 @@
+- name: variables
+  hosts: local
+  connection: local
+  tasks:
+  - ansible.builtin.debug:
+      msg: "Course is DevOps with Aws, Duratin is 120HRS, Trainer is Sivakumar"
