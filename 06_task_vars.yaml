@@ -7,7 +7,7 @@
     TRAINER: Sivakumar
   tasks:
   - name: print the variables
-    vars: # Task level variables, accessible only with in the task
+    vars: # Task level variables, accessible only with in the task.Local varibles
       COURSE: Ansible
     ansible.builtin.debug:
       msg: "Course is {{ COURSE }}, Duration is {{ DURATION }}, Trainer is {{ TRAINER }}"
