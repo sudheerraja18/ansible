@@ -14,5 +14,5 @@
     vars:
       GREET: "FROM TASK"
     ansible.builtin.debug:
-      msg: "Course is {{ COURSE }}, Duration is {{ DURATION }}, Trainer is {{ TRAINER }}"
+      msg: "HELLO {{ GREET }}"
 
