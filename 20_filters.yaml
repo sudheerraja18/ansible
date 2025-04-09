@@ -16,7 +16,7 @@
     vars:
       course:
         name: Ansible
-        duration:10Hrs
+        duration: 10Hrs
         trainer: sivakumar
     ansible.builtin.debug:
       msg: "Course info: {{ course | dict2items }}"
